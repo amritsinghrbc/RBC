@@ -1,0 +1,17 @@
+{
+  "name": "RBC-Assignment",
+  "version": "1.0.0",
+  "description": "e2e tests",
+  "main": "globals.js",
+  "scripts": {
+    "e2e:Chrome": "nightwatch  -c ./nightwatch.json --env chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {}
+}
