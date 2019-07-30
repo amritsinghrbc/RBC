@@ -39,7 +39,51 @@ module.exports = {
         client.page.checkoutPage().closeCheckOutPage(client)
         client.end()
 
-    }
+    },
+
+    'Verify that Items can be filtered out using Small Sizes' : function (client) {
+        client.page.shoppingCartLandingPage().visitPage(client)
+        client.page.shoppingCartLandingPage().selectASize(client,"S")
+        client.pause(2000)
+        client.page.shoppingCartLandingPage().verifyNumberOfProductsFound(client,'2 Product(s) found.')
+        client.page.shoppingCartLandingPage().selectASize(client,"S")
+        client.pause(2000)
+        client.page.shoppingCartLandingPage().verifyNumberOfProductsFound(client,'16 Product(s) found.')
+        client.pause(5000)
+
+        client.end()
+
+    },
+
+    'Verify that Items can be filtered out using Large Sizes' : function (client) {
+        client.page.shoppingCartLandingPage().visitPage(client)
+        client.page.shoppingCartLandingPage().selectASize(client,"L")
+        client.pause(2000)
+        client.page.shoppingCartLandingPage().verifyNumberOfProductsFound(client,'10 Product(s) found.')
+        client.page.shoppingCartLandingPage().selectASize(client,"L")
+        client.pause(2000)
+        client.page.shoppingCartLandingPage().verifyNumberOfProductsFound(client,'16 Product(s) found.')
+        client.pause(5000)
+
+        client.end()
+
+    },
+
+    'Verify that Items can be filtered out using XLarge Sizes' : function (client) {
+        client.page.shoppingCartLandingPage().visitPage(client)
+        client.page.shoppingCartLandingPage().selectASize(client,"XL")
+        client.pause(2000)
+        client.page.shoppingCartLandingPage().verifyNumberOfProductsFound(client,'10 Product(s) found.')
+        client.page.shoppingCartLandingPage().selectASize(client,"XL")
+        client.pause(2000)
+        client.page.shoppingCartLandingPage().verifyNumberOfProductsFound(client,'16 Product(s) found.')
+        client.pause(5000)
+
+        client.end()
+
+    },
+
+
 
 
 

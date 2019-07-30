@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="testShoppingCart"
+    errors="0" failures="0" hostname="" id="" package="testShoppingCart" skipped="0"
+    tests="7" time="77.98" timestamp="Tue, 30 Jul 2019 03:39:55 GMT">
+  
+    <testcase name="Demo RBC Shopping Cart Landing Page" classname="testShoppingCart" time="6.577" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify checkout Page is Displayed Successfully" classname="testShoppingCart" time="5.342" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify items are added to the cart successfully" classname="testShoppingCart" time="11.16" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that Items can be deleted from the cart successfully" classname="testShoppingCart" time="11.38" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that Items can be filtered out using Small Sizes" classname="testShoppingCart" time="14.49" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that Items can be filtered out using Large Sizes" classname="testShoppingCart" time="14.57" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify that Items can be filtered out using XLarge Sizes" classname="testShoppingCart" time="14.46" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
